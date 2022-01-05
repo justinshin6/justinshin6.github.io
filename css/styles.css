@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css?family=Allura');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Calistoga');
+
+body {
+  color: #F0F5F9;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  font-family: "Calistoga";
+}
+
+/* Title  */
+#title {
+  color: #F0F5F9;
+  background-color: #222831;
+  padding-bottom: 15%;
+  position: relative;
+}
+
+.container-fluid {
+  padding: 3% 15% 3%;
+}
+
+.navbar {
+  opacity: 0;
+  background-color: #222831;
+  animation: fadeIn 2s ease forwards;
+  animation-delay: 4.5s;
+}
+
+.navbar-brand {
+  font-family: "Allura";
+}
+
+.heading-intro {
+  font-size: 1.5rem;
+  padding: 20% 0 0;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  animation: text_reveal_p 1.5s ease forwards;
+  animation-delay: .5s;
+}
+
+.heading-span-intro {
+  position: absolute;
+  left: 0;
+  top: 70%;
+  height: 30%;
+  width: 100%;
+  background-color: #222831;
+  animation: overlay 1.5s ease forwards;
+  animation-delay: .5s;
+}
+
+.main-heading {
+  font-size: 4.5rem;
+  font-weight: bold;
+  display: block;
+  position: relative;
+  line-height: 1.5;
+  animation: text_reveal_title 1.5s ease forwards;
+  animation-delay: 2s;
+}
+
+.heading-span-heading {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #222831;
+  animation: overlay 1.5s ease forwards;
+  animation-delay: 2s;
+}
+
+.heading-description {
+  position: relative;
+  font-size: 1.5rem;
+  display: inline-block;
+  animation: text_reveal_p 1.5s ease forwards;
+  animation-delay: 3s;
+}
+
+.heading-span-description {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #222831;
+  animation: overlay 1.5s ease forwards;
+  animation-delay: 3s;
+}
+
+.title-image {
+  opacity: 0;
+  border: 5px solid #EEEEEE;
+  position: absolute;
+  overflow: hidden;
+  right: 7%;
+  top: 10%;
+  width: 60%;
+  animation: fadeIn 3s ease forwards;
+  animation-delay: 4.5s;
+}
+
+
+
+.title-hr {
+  opacity: 0;
+  background-color: #EEEEEE;
+  right: 42.5%;
+  position: relative;
+  top: 8%;
+  width: 15%;
+  animation: fadeIn 2s ease forwards;
+  animation-delay: 4.5s;
+}
+
+/* About Me Section */
+#about-me {
+  background-color: #EEEEEE;
+  color: #000;
+  padding: 7% 15% 1%;
+  position: relative;
+}
+
+.about-me-picture {
+  border: 5px solid #222831;
+  overflow: hidden;
+  width: 65%;
+}
+
+.about-me-hr {
+  background-color: #00ADB5;
+  position: relative;
+  right: 42.5%;
+  width: 15%;
+}
+
+.about-me-heading {
+  color: #00ADB5;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.background-link {
+  color: #00ADB5;
+  text-decoration: underline;
+}
+
+/* Features Section */
+#features {
+  background-color: #EEEEEE;
+  padding: 2% 15% 3%;
+}
+
+.features {
+  padding: 0 80px;
+  text-align: center;
+}
+
+.features-icon {
+  color: #00ADB5;
+  padding-bottom: 15px;
+  font-size: 3rem;
+}
+
+.features-icon:hover {
+  color: #222831;
+}
+
+.features-title {
+  color: #222831;
+  font-size: 1.5rem;
+}
+
+.features-description {
+  color: #222831;
+}
+
+/* Background Experience */
+#background {
+  background-color: #222831;
+  color: #fff;
+  text-align: center;
+}
+
+.background-heading {
+  color: #00ADB5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding: 3% 0 1%;
+  margin-bottom: 0;
+}
+
+.background-description {
+  margin-bottom: 0;
+}
+
+.carousel-heading {
+  text-align: center;
+}
+
+/* Jemi Carousel Section */
+.jemi-photo {
+  float: left;
+  height: 90%;
+  width: 90%;
+}
+
+.jemi-description {
+  text-align: left;
+}
+
+/* Mock Trial Carousel Section */
+.mock-trial-picture {
+  float: right;
+  height: 90%;
+  margin-left: 3%;
+  width: 90%;
+}
+
+.mock-trial-description {
+  text-align: left;
+  position: relative;
+}
+
+/* Student Government Section */
+.student-government-carousel {
+  margin-bottom: -7%;
+}
+
+.student-government-picture {
+  bottom: 10%;
+  float: left;
+  height: 80%;
+  position: relative;
+  left: 20%;
+  width: 80%;
+}
+
+.student-government-description {
+  text-align: left;
+}
+
+/* Literary Section */
+.literary-picture {
+  float: right;
+  height: 90%;
+  margin-left: 3%;
+  width: 90%;
+}
+
+.literary-description {
+  text-align: left;
+  position: relative;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Other Interests Section */
+#other-interests {
+  background-color: #EEEEEE;
+  color: #222831;
+  text-align: center;
+  padding: 3% 5%;
+}
+
+.other-interests-heading {
+  color: #00ADB5;
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+.soccer-description, .piano-description {
+  text-align: left;
+}
+
+.soccer-picture{
+  height: 54%;
+  width: 54%;
+}
+
+.piano-picture {
+  height: 50%;
+  width: 50%;
+}
+
+.interests-column {
+  padding: 4% 2%;
+}
+
+/* Footer */
+#footer {
+  background-color: #222831;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.creation-tag {
+  padding-bottom: 2%;
+  margin: 0;
+}
+
+/* KeyFrames Section */
+
+@keyframes overlay {
+  50% {
+    width: 100%;
+    left: 0;
+  }
+
+  100% {
+    left: 100%;
+    width: 0;
+  }
+}
+
+@keyframes text_reveal_title {
+  100% {
+    color: #00ADB5;
+  }
+}
+
+@keyframes text_reveal_p {
+  100% {
+    color: #fff;
+  }
+}
+
+@keyframes fadeIn {
+  100% {
+    opacity: 1;
+  }
+}
+/* Media Controls */
+
+/* Phone Media Mode */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-hr {
+    background-color: #222831;
+  }
+
+  .title-image {
+    padding-top: 10%;
+    position: relative;
+    left: 2%;
+  }
+
+  .heading-intro {
+    display: inline-block;
+  }
+
+  .about-me-picture {
+    left: 19%;
+    position: relative;
+  }
+
+  .about-me-heading {
+    text-align: center;
+  }
+
+  .about-me-hr {
+    background-color: #fff;
+  }
+
+/* Fix Carousel Images */
+  .jemi-photo {
+    position: relative;
+    left: 5%;
+  }
+
+  .student-government-picture {
+    top: 5%;
+    position: relative;
+    left: 10%;
+  }
+
+
+  .literary-picture {
+    position: relative;
+    right: 4%;
+  }
+}
